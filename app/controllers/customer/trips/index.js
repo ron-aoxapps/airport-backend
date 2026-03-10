@@ -1339,7 +1339,7 @@ tripController.getActiveReservationsByCustomer = async (req, res) => {
           ],
         },
       ])
-      .sort({ parkedAt: -1 })
+      .sort({ updatedAt: -1 })
       .skip((page - 1) * limit)
       .limit(parseInt(limit))
       .lean();
