@@ -1,0 +1,42 @@
+{
+  "name": "dineease-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.864.0",
+    "@aws-sdk/lib-storage": "^3.991.0",
+    "@sendgrid/mail": "^8.1.6",
+    "axios": "^1.11.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "firebase-admin": "^13.4.0",
+    "google-auth-library": "^10.2.0",
+    "googleapis": "^154.0.0",
+    "helmet": "^8.1.0",
+    "ical": "^0.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.14.1",
+    "multer": "^1.4.5-lts.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.1",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
+    "stripe": "^18.1.0",
+    "twilio": "^5.6.0"
+  }
+}
